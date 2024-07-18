@@ -1,13 +1,11 @@
 {
-  "homepage": "https://Rayan-Ob.github.io/vite-project-travel",
   "name": "vite-project-one",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "predeploy": "npm run build",    
-    "deploy": "gh-pages -d dist",
+ 
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
