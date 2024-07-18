@@ -40,7 +40,7 @@ let trendyCards =
       <Services desc="CATEGORY" title="We Offer Best Services" gridService="grid-services-category" >
         {serviceCards.map((element, index) => {
           return (
-            <ServiceItem key={index} image={"../../assets/images/flag.svg"} service={element.service} description={element.desc} />
+            <ServiceItem key={index} image={`../../../src/assets/images/${element.img}`} service={element.service} description={element.desc} />
           )
         })}
       </Services>
