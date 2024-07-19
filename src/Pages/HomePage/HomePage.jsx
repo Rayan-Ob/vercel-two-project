@@ -11,6 +11,19 @@ import TrendyCard from '../../Components/TrendyCard/TrendyCard'
 import HeroPage1 from "../../assets/images/HeroPage1.png"
 import citiesPhoto from "../../assets/images/ExploreCities.jpg"
 import nature from "../../assets/images/nature.webp"
+import "../../assets/images/flag.svg"
+import "../../assets/images/plane.svg"
+import "../../assets/images/hand.svg"
+import "../../assets/images/doctor.svg"
+import "../../assets/images/switherFlag.svg"
+import "../../assets/images/switherland.png"
+import "../../assets/images/amazon.png"
+import "../../assets/images/brazilFlag.svg"
+import "../../assets/images/giza.png"
+import "../../assets/images/egyptFlag.svg"
+
+
+
 
 
 
