@@ -1,5 +1,5 @@
 import "./BoxPackageStyle.css"
-import vectorstar from "../../assets/images/vector.png"
+import vectorstar from "../../../public/images/vector.png"
 
 function BoxPackage({ image, date, people, country, desc, price, rate }) {
   return (

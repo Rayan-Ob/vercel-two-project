@@ -1,5 +1,5 @@
 import React from 'react'
-import heroImg from '../../assets/images/hotel-reservation.jpg'
+import heroImg from '../../../public/images/hotel-reservation.jpg'
 import Hero from '../../Components/Hero/Hero'
 import FormService from '../../Components/FormService/FormService'
 

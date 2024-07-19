@@ -1,6 +1,6 @@
 import "./TrendyCardStyle.css"
-import personIcon from "../../assets/images/personIcon.svg"
-import calenderIcon from "../../assets/images/calenderIcon.svg"
+import personIcon from "../../../public/images/images/personIcon.svg"
+import calenderIcon from "../../../public/images/images/calenderIcon.svg"
 
 function TrendyCard({ image, days, people, country, description, flag, rate }) {
   return (

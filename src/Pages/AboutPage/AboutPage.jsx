@@ -1,6 +1,8 @@
-import aboutPagePhoto from "../../assets/images/aboutPage.png"
-import TourPlanImg from "../../assets/images/tour-plan.png"
-import trend from "../../assets/images/trend-tourplan-about.png"
+import aboutPagePhoto from "../../../public/images/aboutPage.png"
+import TourPlanImg from "../../../public/images/tour-plan.png"
+import trend from "../../../public/images/trend-tourplan-about.png"
+
+
 import Hero from "../../Components/Hero/Hero"
 import TourPlan from "../../Components/TourPlan/TourPlan"
 import VideoComponent from "../../Components/VideoComponent/VideoComponent"

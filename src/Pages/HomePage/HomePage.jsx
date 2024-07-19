@@ -8,19 +8,9 @@ import TrendyCard from '../../Components/TrendyCard/TrendyCard'
 
 
 // photos
-import HeroPage1 from "../../assets/images/HeroPage1.png"
-import citiesPhoto from "../../assets/images/ExploreCities.jpg"
-import nature from "../../assets/images/nature.webp"
-import "../../assets/images/flag.svg"
-import "../../assets/images/plane.svg"
-import "../../assets/images/hand.svg"
-import "../../assets/images/doctor.svg"
-import "../../assets/images/switherFlag.svg"
-import "../../assets/images/switherland.png"
-import "../../assets/images/amazon.png"
-import "../../assets/images/brazilFlag.svg"
-import "../../assets/images/giza.png"
-import "../../assets/images/egyptFlag.svg"
+import HeroPage1 from "../../../public/images/HeroPage1.png"
+import citiesPhoto from "../../../public/images/ExploreCities.jpg"
+import nature from "../../../public/images/nature.webp"
 
 
 
@@ -53,7 +43,7 @@ let trendyCards =
       <Services desc="CATEGORY" title="We Offer Best Services" gridService="grid-services-category" >
         {serviceCards.map((element, index) => {
           return (
-            <ServiceItem key={index} image={`/src/assets/images/${element.img}`} service={element.service} description={element.desc} />
+            <ServiceItem key={index} image={`../../../public/images/${element.img}`} service={element.service} description={element.desc} />
           )
         })}
       </Services>
@@ -69,7 +59,7 @@ let trendyCards =
       <Services desc="TRENDY" title="Our Trending Tour Packages" gridService="grid-services-trendy">
         {trendyCards.map((element, index) => {
           return (
-            <TrendyCard key={index} image={`/src/assets/images/${element.image}`} flag={`/src/assets/images/${element.flag}`} days={element.daysNumber} people={element.people}
+            <TrendyCard key={index} image={`../../../public/images/${element.image}`} flag={`../../../public/images/${element.flag}`} days={element.daysNumber} people={element.people}
               rate={element.rate} country={element.country} description={element.desc} />
           )
         })}

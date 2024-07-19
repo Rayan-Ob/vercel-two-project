@@ -4,7 +4,7 @@
 
 import React, { useState } from "react";
 import "./NavBar.css"
-import logo from "../../assets/images/logoNavbar.png"
+import logo from "../../../public/images/logoNavbar.png"
 import { NavLink } from "react-router-dom";
 
 const Navbar = ({ menu }) => {
